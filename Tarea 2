@@ -1,1 +1,18 @@
-
+Algoritmo CadenaInvertida
+	
+	Definir palabra, invertir como cadena
+	Definir i Como Entero
+	
+	Escribir  "Escribes una palabra para invertirla: "
+	leer palabra
+	
+	// se pone en blanco la variable "invertir"
+	invertir <- ""
+	//longitud cuanta todo lo que esta en la variable "palabra"
+	para i <- Longitud(palabra) hasta 1 con paso -1 hacer
+		// subCadena se le asigna la posicion a casa letra
+		invertir <- invertir + Subcadena(palabra, i, i)
+	FinPara
+	
+	Escribir  invertir
+FinAlgoritmo
