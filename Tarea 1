@@ -1,1 +1,17 @@
+Algoritmo Piramide_de_asteriscos
+	
+	Definir niveles Como Entero
+	Definir espacio Como Caracter
+	
+	Escribir "Nivel de la piramide: "
+	leer niveles 
+	
+	espacio <- ""
+	
+	 Para i <- 1 hasta niveles hacer 
+		espacio <- espacio + "*"
+		Escribir espacio
+	Finpara
+	
+FinAlgoritmo
 
